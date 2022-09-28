@@ -24,4 +24,35 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+I deployed this project into Heroku. Process is below:
+
+Within the Gemfile remove:
+
+```
+gem 'sqlite3'
+```
+And replace it with:
+```
+gem 'pg'
+```
+With the Gemfile updated, reinstall the dependencies:
+```
+bundle install
+```
+first have to login on heroku.
+```
+heroku login
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
