@@ -1,9 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+This is my beginning of learning Ruby on rails.
+---
 
 * Ruby version:
     3.1.2
@@ -12,13 +10,21 @@ Things you may want to cover:
 * System dependencies
 
 * Configuration
-
+```
+bundle install
+```
 * Database creation
-    rails db:create
+```
+rails db:create
+```
 * Database initialization
-    rails db:migrate
+```
+rails db:migrate
+```
 * How to run the test suite
-    rails server
+```
+rails server
+```
 
 * Services (job queues, cache servers, search engines, etc.)
 
