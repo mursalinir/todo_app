@@ -48,10 +48,10 @@ heroku login
 ```
  initialize a local empty Git repository and commit
 ```
-
-```
 git init
+
 git add .
+
 git commit -m "commit message"
 ```
 create a new app on Heroku.
