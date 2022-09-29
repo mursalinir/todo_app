@@ -76,3 +76,4 @@ Migrate The Database
 ```
 heroku run rake db:migrate
 ```
+Deployment reference: https://devcenter.heroku.com/articles/getting-started-with-rails7
