@@ -51,10 +51,8 @@ heroku login
 
 ```
 git init
-
 git add .
-
-git commit -m "init"
+git commit -m "commit message"
 ```
 create a new app on Heroku.
 ```
@@ -63,7 +61,6 @@ heroku create app_name
 initialize git
 ```
 git init
-
 heroku git:remote -a app_name
 ```
 Deploy the code:
