@@ -58,9 +58,10 @@ heroku create app_name
 initialize git
 ```
 git init
-```
-```
 heroku git:remote -a app_name
+```
+```
+
 ```
 
 ```
