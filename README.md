@@ -68,4 +68,7 @@ or
 ```
 git push heroku master
 ```
-
+Migrate The Database
+```
+heroku run rake db:migrate
+```
