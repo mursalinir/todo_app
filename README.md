@@ -9,28 +9,23 @@ This is a simple to do apps.
     3.1.2
 * Rails version:
     7.0.4
-* System dependencies
-
-* Configuration
+* Configuration:
 ```
 bundle install
 ```
-* Database creation
+* Database creation:
 ```
 rails db:create
 ```
-* Database initialization
+* Database initialization:
 ```
 rails db:migrate
 ```
-* How to run the test suite
+* How to run the test suite:
 ```
 rails server
 ```
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Deployment instructions:
 
 I deployed this project into Heroku. Process is below:
 
@@ -51,6 +46,16 @@ first have to login on heroku.
 ```
 heroku login
 ```
+ initialize a local empty Git repository and commit
+```
+
+```
+git init
+
+git add .
+
+git commit -m "init"
+```
 create a new app on Heroku.
 ```
 heroku create app_name
@@ -58,6 +63,7 @@ heroku create app_name
 initialize git
 ```
 git init
+
 heroku git:remote -a app_name
 ```
 Deploy the code:
