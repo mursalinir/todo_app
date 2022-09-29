@@ -60,11 +60,12 @@ initialize git
 git init
 heroku git:remote -a app_name
 ```
+Deploy the code:
 ```
-
+git push heroku main
 ```
-
+or
 ```
-
+git push heroku master
 ```
 
