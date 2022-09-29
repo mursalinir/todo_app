@@ -34,7 +34,7 @@ I deployed this project into Heroku. Process is below:
 Within the Gemfile remove:
 
 ```
-gem 'sqlite3'
+gem "sqlite3", "~> 1.4"
 ```
 And replace it with:
 ```
