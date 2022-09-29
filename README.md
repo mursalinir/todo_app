@@ -1,4 +1,4 @@
-# README
+# Rails TODO apps
 
 This is my beginning of learning Ruby on rails.
 This is a simple to do apps.
