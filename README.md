@@ -51,7 +51,9 @@ first have to login on heroku.
 ```
 heroku login
 ```
-
+create a new app on Heroku.
+```
+heroku create app_name
 ```
 
 ```
