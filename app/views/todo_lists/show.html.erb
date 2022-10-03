@@ -1,9 +1,15 @@
 <p style="color: green"><%= notice %></p>
-
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Text</th>
+    <th>Edit this todo list</th>
+  </tr>  
 <%= render @todo_list %>
-
+</table>
 <div>
-  <%= link_to "Edit this todo list", edit_todo_list_path(@todo_list) %> |
+   <%= link_to "Edit", edit_todo_list_path(@todo_list) %>|
   <%= link_to "Back to todo lists", todo_lists_path %>
 
   <%= button_to "Destroy this todo list", @todo_list, method: :delete %>
