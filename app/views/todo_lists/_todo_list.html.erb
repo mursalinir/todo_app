@@ -1,17 +1,8 @@
-<div id="<%= dom_id todo_list %>">
-  <p>
-    <strong>Title:</strong>
-    <%= todo_list.title %>
-  </p>
-
-  <p>
-    <strong>Description:</strong>
-    <%= todo_list.description %>
-  </p>
-
-  <p>
-    <strong>Text:</strong>
-    <%= todo_list.text %>
-  </p>
-
+<div id="<%= dom_id todo_list %>">  
+  <tr>
+    <td><%= todo_list.title %></td>
+    <td><%= todo_list.description %></td>
+    <td><%= todo_list.text %></td>
+    <td><%= link_to "Show", todo_list %></td>
+  </tr>  
 </div>
