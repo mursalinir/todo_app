@@ -1,3 +1,10 @@
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -13,4 +20,12 @@ th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+.center { 
+    text-align: center;
+}
+
+.button {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
