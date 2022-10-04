@@ -9,7 +9,7 @@
 <%= render @todo_list %>
 </table>
 <div>
-   <%= link_to "Edit", edit_todo_list_path(@todo_list) %>|
+  <%= link_to "Edit", edit_todo_list_path(@todo_list) %>|
   <%= link_to "Back to todo lists", todo_lists_path %>
 
   <%= button_to "Destroy this todo list", @todo_list, method: :delete %>
