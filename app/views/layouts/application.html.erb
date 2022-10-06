@@ -11,6 +11,7 @@
   </head>
 
   <body>
+
     <% unless controller_name == "welcome" %>
     <nav class="navbar">
       <!-- LOGO -->
@@ -40,5 +41,9 @@
       </p>
     </div>
     <% end %>
+    <%= yield %>
+    <div class="footer">
+      <p>&copy; Mursalin Islam</p>
+    </div>
   </body>
 </html>
