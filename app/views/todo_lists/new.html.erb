@@ -1,9 +1,6 @@
-<div class="center">
-<h1>New todo list</h1>
-
-<%= render "form", todo_list: @todo_list %>
-
-<div>
-  <%= link_to "Back to todo lists", todo_lists_path %>
-</div>
+<div class="form-card">
+  <div class="title">
+    <h1>New todo list</h1>
+  </div>
+  <%= render "form", todo_list: @todo_list %>
 </div>

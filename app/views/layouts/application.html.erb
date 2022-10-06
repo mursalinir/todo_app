@@ -2,15 +2,45 @@
 <html>
   <head>
     <title>TodoApp</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
+
+    <% unless controller_name == "welcome" %>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">
+        <%= image_tag "todo logo.png", height: 60 %> Todo App
+      </div>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><%= link_to "Home", root_path %></li>
+          <li><%= link_to "View List", todo_lists_path %></li>
+          <li><%= link_to "New List", new_todo_list_path %></li>
+          <li>
+            <a href="https://mursalinir.github.io/" target="_blank">About</a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+    <% end %> <%= yield %> <% unless controller_name == "welcome" %>
+    <div class="footer">
+      <p style="margin-top: 0.5rem; margin-bottom: 0.5rem">
+        &copy; Mursalin Islam
+      </p>
+    </div>
+    <% end %>
     <%= yield %>
     <div class="footer">
       <p>&copy; Mursalin Islam</p>
