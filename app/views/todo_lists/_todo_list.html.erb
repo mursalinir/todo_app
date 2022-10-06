@@ -1,8 +1,12 @@
-<div id="<%= dom_id todo_list %>">  
+<div id="<%= dom_id todo_list %>">
   <tr>
     <td><%= todo_list.title %></td>
     <td><%= todo_list.description %></td>
     <td><%= todo_list.text %></td>
-    <td><%= link_to "Show", todo_list %></td>
-  </tr>  
+    <td>
+      <div class="link-button">
+        <%= link_to "Show", todo_list, class: "small-button" %>
+      </div>
+    </td>
+  </tr>
 </div>

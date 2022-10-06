@@ -1,4 +1,16 @@
-<h2>Hello World</h2>
-<p>
-  The time is now: <%= Time.now %>
-</p>
+<div class="app">
+  <div class="card">
+    <div class="banner"><%= image_tag "bg.jpg" %></div>
+    <div class="logo"><%= image_tag "todo logo.png", height: 120 %></div>
+    <h2 class="name">Rails Todo app</h2>
+    <div class="title">by Mursalin Islam</div>
+    <div class="actions">
+      <div class="follow-btn">
+        <%= link_to "View Todo lists", todo_lists_path, class: "button-link" %>
+        <%= link_to "Add Todo list", new_todo_list_path, class: "button-link" %>
+        <%= link_to "About me", "https://mursalinir.github.io/", class:
+        "button-link", target: "_blank" %>
+      </div>
+    </div>
+  </div>
+</div>
