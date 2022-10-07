@@ -10,8 +10,7 @@
     <%= render @todo_list %>
   </table>
   <div class="link-button">
-    <%= link_to "Edit This todo list" , edit_todo_list_path(@todo_list), class:
-    "small-button" %> <%= button_to "Destroy this todo list" , @todo_list,
-    method: :delete, class: "button-link" %>
+    <%= link_to "Edit This todo list" , edit_todo_list_path(@todo_list), class: "edit-button" %> 
+    <%= button_to "Destroy this todo list" , @todo_list, method: :delete, class: "delete-button" %> 
   </div>
 </div>
