@@ -33,12 +33,12 @@
         </div>
       </ul>
     </nav>
-    <% end %> <%= yield %> <% unless controller_name == "welcome" %>
-    <div class="footer">
-      <p style="margin-top: 0.5rem; margin-bottom: 0.5rem">
-        &copy; Mursalin Islam
-      </p>
-    </div>
+    <% end %>
+    <%= yield %>
+    <% unless controller_name == "welcome" %>    
+      <div class="footer">
+        <p style="margin-top: 0.5rem; margin-bottom: 0.5rem">&copy; Mursalin Islam</p>
+      </div>
     <% end %>
   </body>
 </html>
