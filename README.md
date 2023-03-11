@@ -81,35 +81,10 @@ heroku run rake db:migrate
 Deployment reference: https://devcenter.heroku.com/articles/getting-started-with-rails7
 
 
-
-```
-root
-|--- api_test_server
-|   |---
-|   |---
-|
-|--- experiments
-|
-|--- monitoring
-|
-|--- pipeline
-|
-|--- tests
-|
-|--- Dockerfile
-|
-|--- docker-compose.yml
-|
-|--- startup_ubuntu.sh
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-```
+.
+├── ...
+├── test                    # Test files (alternatively `spec` or `tests`)
+│   ├── benchmarks          # Load and stress tests
+│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+│   └── unit                # Unit tests
+└── ...
