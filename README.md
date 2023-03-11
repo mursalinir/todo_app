@@ -84,25 +84,23 @@ Deployment reference: https://devcenter.heroku.com/articles/getting-started-with
 
 ```
 root
-|___ api_test_server
-|   |___
-|   |___
+|--- api_test_server
+|   |---
+|   |---
 |
-|___ experiments
+|--- experiments
 |
-|___ monitoring
+|--- monitoring
 |
-|___ pipeline
+|--- pipeline
 |
-|___ tests
+|--- tests
 |
-|___ Dockerfile
+|--- Dockerfile
 |
-|___ docker-compose.yml
+|--- docker-compose.yml
 |
-|___ startup_ubuntu.sh
-|
-|
+|--- startup_ubuntu.sh
 |
 |
 |
@@ -112,3 +110,6 @@ root
 |
 |
 |
+|
+|
+```
