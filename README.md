@@ -79,3 +79,36 @@ Migrate The Database
 heroku run rake db:migrate
 ```
 Deployment reference: https://devcenter.heroku.com/articles/getting-started-with-rails7
+
+
+
+```
+root
+|___ api_test_server
+|   |___
+|   |___
+|
+|___ experiments
+|
+|___ monitoring
+|
+|___ pipeline
+|
+|___ tests
+|
+|___ Dockerfile
+|
+|___ docker-compose.yml
+|
+|___ startup_ubuntu.sh
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
