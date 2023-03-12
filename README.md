@@ -79,13 +79,3 @@ Migrate The Database
 heroku run rake db:migrate
 ```
 Deployment reference: https://devcenter.heroku.com/articles/getting-started-with-rails7
-
-```
-.
-├── ...
-├── test                    # Test files (alternatively `spec` or `tests`)
-│   ├── benchmarks          # Load and stress tests
-│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-│   └── unit                # Unit tests
-└── ...
-```
